@@ -1,0 +1,26 @@
+{
+  "name": "joke-generator",
+  "version": "1.0.0",
+  "description": "A simple random joke generator using external APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "joke",
+    "generator",
+    "api"
+  ],
+  "author": "ruman003-alt",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "jest": "^29.0.0"
+  }
+}
